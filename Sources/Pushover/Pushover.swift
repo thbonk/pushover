@@ -7,10 +7,10 @@
 //
 
 import Foundation
-import Dispatch
 #if canImport(FoundationNetworking)
 import FoundationNetworking
 #endif
+import Dispatch
 
 /// Pushover API client which is used for all communication with the Pushover.net service.
 public struct Pushover {
