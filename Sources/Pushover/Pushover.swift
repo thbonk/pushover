@@ -8,7 +8,7 @@
 
 import Foundation
 import Dispatch
-#if os(Linux)
+#if canImport(FoundationNetworking)
 import FoundationNetworking
 #endif
 
