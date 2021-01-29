@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if os(Linux)
+import FoundationNetworking
+#endif
 
 /// A notification to be sent to some devices
 public class Notification {
